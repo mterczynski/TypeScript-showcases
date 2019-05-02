@@ -1,12 +1,4 @@
 namespace RecordsShowcase {
-	interface Person {
-		name: string;
-		age: number;
-		location: string;
-	}
-
-	type RecordPerson = Record<string, Person>;
-
 	interface CheckedProperty{
 		checked: boolean,
 		index: number
